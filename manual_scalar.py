@@ -42,3 +42,4 @@ for i, name in enumerate(names):
     ana = analytic[i]
     rel = abs(ana - num) / max(abs(ana), abs(num), 1e-12)
     print(name, ana, num, rel)
+
